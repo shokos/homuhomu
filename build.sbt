@@ -19,13 +19,14 @@ libraryDependencies ++= {
     "io.spray"            %   "spray-can"     % sprayV,
     "io.spray"            %   "spray-routing" % sprayV,
     "io.spray"            %   "spray-testkit" % sprayV  % "test",
+    "io.spray"            %%  "spray-json"    % "1.2.6",
     "com.typesafe.akka"   %%  "akka-actor"    % akkaV,
     "com.typesafe.akka"   %%  "akka-testkit"  % akkaV   % "test",
     "org.specs2"          %%  "specs2"        % "latest.integration" % "test",
     "org.specs2"          %%  "specs2-scalaz-core" % "latest.integration" % "test",
     "junit"               %   "junit"         % "latest.integration" % "test",
     "org.hamcrest"        %   "hamcrest-all"  % "latest.integration" % "test",
-    "org.pegdown"         %   "pegdown"         % "latest.integration" % "test"
+    "org.pegdown"         %   "pegdown"       % "latest.integration" % "test"
   )
 }
 
